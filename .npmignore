@@ -2,3 +2,4 @@
 dotnet
 src
 tsconfig.json
+*.pdb
