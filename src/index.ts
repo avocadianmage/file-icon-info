@@ -1,1 +1,1 @@
-export { FileIconInfo } from './file-icon-info';
+export { getIcon } from './file-icon-info';

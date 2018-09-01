@@ -1,6 +1,1 @@
-/// <reference types="node" />
-import * as EventEmitter from 'events';
-export declare class FileIconInfo {
-    emitter: EventEmitter;
-    getIcon(path: string): void;
-}
+export declare function getIcon(path: string, callback: (data: string) => any): void;

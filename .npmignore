@@ -1,13 +1,4 @@
-# git files
 .git/
-
-# Visual Studio 2015/2017 cache/options directory
-dotnet/FileIconInfo/.vs/
-
-# Build results
-dotnet/FileIconInfo/FileIconInfo/bin
-dotnet/FileIconInfo/FileIconInfo/obj
-
 dotnet
 src
 tsconfig.json
