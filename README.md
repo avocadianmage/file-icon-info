@@ -9,6 +9,7 @@ file-icon-info is a node.js module that allows you to extract the icon image (re
 ## Usage
 
     const fii = require('file-icon-info');
+    const fs = require('fs');
     fii.emitter.on('icon-info', data => {
         fs.writeFileSync('path-to-save-icon.ico', data, 'base64');
     });
