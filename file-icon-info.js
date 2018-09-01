@@ -4,7 +4,7 @@ const EventEmitter = require('events');
 function FileIconInfo() {
     this.emitter = new EventEmitter();
     this.getIcon = path => {
-        const proc = child_process.spawn('bin/FileIconInfo.exe');
+        const proc = child_process.spawn(__dirname + '/bin/FileIconInfo.exe');
         proc.stdout.on('data', data => {
             this.emitter.emit('icon-info', data.toString());
         });
