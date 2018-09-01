@@ -1,6 +1,6 @@
 {
   "name": "file-icon-info",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extracts icon information from an executable.",
   "main": "file-icon-info.js",
   "repository": {
