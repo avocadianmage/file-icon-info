@@ -1,7 +1,7 @@
 import * as child_process from 'child_process';
 import * as EventEmitter from 'events';
 
-class FileIconInfo {
+export class FileIconInfo {
     emitter: EventEmitter = new EventEmitter();
     
     getIcon(path: string) {
@@ -14,5 +14,3 @@ class FileIconInfo {
         proc.stdin.write(path + '\n');
     }
 }
-
-module.exports = new FileIconInfo();
