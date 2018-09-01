@@ -8,5 +8,8 @@
     "url": "https://github.com/avocadianmage/file-icon-info"
   },
   "author": "avocadianmage",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@types/node": "^10.9.4"
+  }
 }
