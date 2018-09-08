@@ -1,16 +1,22 @@
 {
-  "name": "file-icon-info",
-  "version": "1.0.15",
-  "description": "Extracts icon information from an executable.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/avocadianmage/file-icon-info"
-  },
-  "author": "avocadianmage",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "@types/node": "^10.9.4"
-  }
+    "name": "file-icon-info",
+    "version": "1.0.15",
+    "description": "Extracts icon information from an executable.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/avocadianmage/file-icon-info"
+    },
+    "author": "avocadianmage",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@types/node": "^10.9.4"
+    },
+    "keywords": [
+        "icon",
+        "executable",
+        "extractor",
+        "extraction"
+    ]
 }
