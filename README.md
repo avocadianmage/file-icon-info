@@ -1,6 +1,6 @@
 # file-icon-info
 
-file-icon-info is a node.js module that allows you to extract the icon image (returned as a base64 string) for a given `.exe` on your machine.
+file-icon-info is a node.js module that allows you to extract the icon image for a given `.exe` on your machine. A high-resolution, 256x256 image is returned as a base64 encoded string.
 
 ## Installation
 
