@@ -36,7 +36,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IconExtractor.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="NativeMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
